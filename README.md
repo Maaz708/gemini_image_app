@@ -4,7 +4,7 @@ A simple Streamlit-based web application that uses Google's Gemini AI multi-mode
 
 ---
 
-## 🚀 Features
+## Features
 
 * Upload images (JPG, JPEG, PNG)
 * Ask questions about the image
@@ -14,7 +14,7 @@ A simple Streamlit-based web application that uses Google's Gemini AI multi-mode
 
 
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 * Python
 * Streamlit
@@ -32,13 +32,13 @@ A simple Streamlit-based web application that uses Google's Gemini AI multi-mode
 
 ---
 
-## 📦 Installation
+## Installation
 
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/gemini-image-app.git
-cd gemini-image-app
+git clone https://github.com/Maaz708/gemini_image_app
+
 ```
 
 ### 2. Create virtual environment
@@ -56,9 +56,9 @@ pip install -r requirements.txt
 
 ---
 
-## 🔑 Setup Environment Variables
+## Setup Environment Variables
 
-Create a `.env` file in the root directory:
+Create a `.env` file:
 
 ```env
 GOOGLE_API_KEY=your_api_key_here
@@ -69,7 +69,7 @@ https://aistudio.google.com/apikey
 
 ---
 
-## ▶️ Run the App
+## Run the App
 
 ```bash
 streamlit run app.py
@@ -78,16 +78,15 @@ streamlit run app.py
 ---
 
 
-## 📌 Future Improvements
+## Future Improvements
 
 * Add PDF support
 * Add chat history
-* Export extracted results
 * Multi-image support
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 Mohd Maaz
 Built as a mini project using Google Gemini API and Streamlit.
